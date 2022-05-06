@@ -18,4 +18,4 @@
 7. (command.) heroku login -i (build connection between our work and heroku)  
 8. (command.) heroku create -a *application-name (eg, heroku create -a myapp-01012202)  
 9. (command.) heroku git:remote -a *application-name (eg, heroku git:remote -a myapp-01012202)    
-10. git add . -> git commit -m "*your words" -> git push heroku main  
+10. (command.) git add . -> git commit -m "*your words" -> git push heroku main  
