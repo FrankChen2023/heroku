@@ -6,7 +6,7 @@
         (command.) source .venv/bin/activate  
 1. build connection with github  
     (command.)git clone + SSH key  
-1.5 (command.) pip install --upgrade pip  
+1.5. (command.) pip install --upgrade pip  
 2. (command.) pip install heroku  
 3. (command.) curl https://cli-assets.heroku.com/install.sh | sh (install CLI tools)  
 4. (command.) pip install gunicorn  
