@@ -16,6 +16,6 @@
     Procfile: web: gunicorn mysite.wsgi --log-file -  
     runtime.txt: python-3.7.0 (or 3.9.0)  
 7. (command.) heroku login -i (build connection between our work and heroku)  
-8. (command.) heroku create -a *application-name (eg, heroku create -a myapp-01012202)  
-9. (command.) heroku git:remote -a *application-name (eg, heroku git:remote -a myapp-01012202)    
+8. (command.) heroku create -a *application-name (eg, heroku create -a myapp-01012022)  
+9. (command.) heroku git:remote -a *application-name (eg, heroku git:remote -a myapp-01012022)    
 10. (command.) git add . -> git commit -m "*your words" -> git push heroku main  
