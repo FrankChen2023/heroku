@@ -9,7 +9,8 @@
 4. pip install gunicorn  
 5. python3 -m pip freeze > requirements.txt  
 6. create two file. (Procfile, runtime.txt)  
-7. heroku login -i (build connection between our work and heroku)  
-8. heroku create -a *application-name  
-9. heroku git:remote -a story-generator-032022  
-10. git add . -> git commit -m "*your words" -> git push heroku main  
+7. web: gunicorn mysite.wsgi --log-file -  
+8. heroku login -i (build connection between our work and heroku)  
+9. heroku create -a *application-name  
+10. heroku git:remote -a story-generator-032022  
+11. git add . -> git commit -m "*your words" -> git push heroku main  
